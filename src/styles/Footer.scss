@@ -1,0 +1,35 @@
+.footer {
+    background-color: #333; // Dark background color
+    color: #fff; // White font color
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  
+    .footer-column {
+      flex: 1;
+      padding: 0 20px;
+  
+      h4 {
+        margin-bottom: 10px;
+      }
+  
+      ul {
+        list-style: none;
+        padding: 0;
+  
+        li {
+          margin-bottom: 5px;
+  
+          a {
+            color: #fff; // White font color for links
+            text-decoration: none;
+  
+            &:hover {
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+    }
+  }
+  
